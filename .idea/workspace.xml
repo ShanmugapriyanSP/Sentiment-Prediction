@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c7d1867a-15f6-4780-9850-a868a0c7e652" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentiment_prediction/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentiment_prediction/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sentiment_prediction/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/sentiment_prediction/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578856021232</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changes in the result">
+      <created>1578856241314</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578856241314</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -156,17 +162,18 @@
     <MESSAGE value="conditions for empty values" />
     <MESSAGE value="UI Changes" />
     <MESSAGE value="Aesthetic changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aesthetic changes" />
+    <MESSAGE value="Changes in the result" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in the result" />
   </component>
   <component name="WindowStateProjectService">
     <state x="684" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578833963133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="684" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578833963133" />
-    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1578856020101">
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1578856240283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578856020101" />
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578856240283" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1578850761562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -187,13 +194,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578856036228" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1578856022540">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1578856244673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578856022540" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1578856186039">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578856244673" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1578856380356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578856186039" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578856380356" />
   </component>
 </project>
