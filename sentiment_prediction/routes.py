@@ -35,7 +35,10 @@ def home():
 def predict():
     try:
         test_review = request.form['review']
-        result = predict_review_type(test_review)
+        if test_review == '':
+            result = ''
+        else:
+            result = predict_review_type(test_review)
     except:
         print('Exception')
         return redirect(url_for('home'))
