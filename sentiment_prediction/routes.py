@@ -6,7 +6,6 @@ nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 from sentiment_prediction import app
-
 import pickle
 
 def predict_review_type(review_test):
@@ -21,7 +20,7 @@ def predict_review_type(review_test):
     review_test = ' '.join(review_test)
     review_test = [review_test]
     review_test = sparser.transform(review_test).toarray()
-    result = "Positive" if model.predict(review_test)[0] == 1 else "Negative"
+    result = "Positive Review" if model.predict(review_test)[0] == 1 else "Negative Review"
     return result
 
 
