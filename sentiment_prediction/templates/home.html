@@ -5,7 +5,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css", href="{{ url_for('static',filename='style.css') }}">
-       <center>
+       {% if title %}
+            <title>{{title}}</title>
+        {% else %}
+            <title>Sentiment Analysis</title>
+        {% endif %}
+        <center>
            <br>
            <br>
            <style>
@@ -14,7 +19,7 @@
             }
             </style>
            <header>
-            <h1>Sentiment Prediction for a review</h1>
+            <h1>Sentiment Prediction for a Review</h1>
             </header>
            <br>
            <br>
@@ -22,7 +27,7 @@
                  <form method="POST" action="{{ url_for('predict') }}">
                     <div class="col-lg-6">
                          <div class="form-group">
-                             <textarea class="form-control" rows="5" name="review"></textarea>
+                             <textarea class="form-control" rows="7" name="review"></textarea>
                         </div>
                     </div>
                     <button type="submit">Predict Sentiment</button>

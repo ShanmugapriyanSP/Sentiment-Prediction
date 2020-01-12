@@ -28,7 +28,7 @@ def predict_review_type(review_test):
 @app.route("/")
 @app.route("/home")
 def home():
-    return render_template('home.html', title='Sentiment Analysis')
+    return render_template('home.html', title='ML - Sentiment Analysis')
 
 
 @app.route("/predict", methods=['POST'])
