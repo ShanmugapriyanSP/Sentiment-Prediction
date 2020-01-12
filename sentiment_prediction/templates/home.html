@@ -15,11 +15,14 @@
            <br>
            <style>
            body {
-                background-color: #E1FFFF;
+                background-color: #7E909A;
             }
+            textarea#ereview {
+    background: gray;
+}
             </style>
            <header>
-            <h1>Sentiment Prediction for a Review</h1>
+            <h1 style="color:#00000;">Sentiment Prediction for a Review</h1>
             </header>
            <br>
            <br>
@@ -27,19 +30,19 @@
                  <form method="POST" action="{{ url_for('predict') }}">
                     <div class="col-lg-6">
                          <div class="form-group">
-                             <textarea class="form-control" rows="7" name="review"></textarea>
+                             <textarea class="form-control" rows="7" id="review" name="review"></textarea>
                         </div>
                     </div>
                      <br>
-                    <button type="submit" class="btn btn-secondary btn-lg">Predict Sentiment</button>
+                    <button type="submit" class="btn btn-dark btn-lg">Predict Sentiment</button>
                  </form>
             </body>
            <br>
            <br>
            {% if result == "Positive" %}
-            <h2 style="color:#49B73C";>{{ result }}</h2>
+            <h2 style="color:#216218";>{{ result }} Review</h2>
            {% else %}
-             <h2 style="color:#E31818";>{{ result }}</h2>
+             <h2 style="color:#BF4343";>{{ result }} Review</h2>
            {% endif %}
 
        </center>
