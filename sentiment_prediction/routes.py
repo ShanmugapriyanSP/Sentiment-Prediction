@@ -11,6 +11,7 @@ import pickle
 def predict_review_type(review_test):
     sparser = pickle.load(open('sentiment_prediction/files/sparser.pkl', 'rb'))
     model = pickle.load(open('sentiment_prediction/files/model.pkl', 'rb'))
+    scaler = pickle.load(open('sentiment_prediction/files/scaler.pkl', 'rb'))
 
     review_test = re.sub('[^a-zA-Z]', ' ', review_test)
     review_test = review_test.lower()
@@ -20,6 +21,7 @@ def predict_review_type(review_test):
     review_test = ' '.join(review_test)
     review_test = [review_test]
     review_test = sparser.transform(review_test).toarray()
+    review_test = scaler.transform(review_test)
     result = "Positive Review" if model.predict(review_test)[0] == 1 else "Negative Review"
     return result
 
