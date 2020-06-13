@@ -5,4 +5,4 @@
 
 Deployed in https://review-sentiment-prediction.herokuapp.com/
 
-![PNG](readme-resources/website.PNG)
+![png](readme-resources/website.PNG)
